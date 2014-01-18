@@ -38,9 +38,9 @@ def cwd_for_window(window):
 
 
 # def dump(obj):
-#     pprint( getmembers( obj ) )
+#	pprint( getmembers( obj ) )
 
-      
+
 # class name not important
 class smartLessBuild(sublime_plugin.EventListener):
 	def relaodSettings(self):
@@ -60,6 +60,8 @@ class smartLessBuild(sublime_plugin.EventListener):
 
 		if self.get('working_dir').lower() == '@auto':
 			working_dir = cwd_for_window(sublime.active_window())
+		elif self.get('working_dir').lower() == '@less_dir':
+			working_dir = os.path.dirname(view.file_name())
 		elif os.path.exists(self.get('working_dir')):
 			working_dir = self.get('working_dir')
 		elif self.get('skip_config_err'):
@@ -100,7 +102,7 @@ class smartLessBuild(sublime_plugin.EventListener):
 
 		cmd +=" --no-color"
 		window.run_command("executer", {
-			'cmd': 'lessc '+ main_less +' '+ css_dir+cmd+' '+self.get('custom_args'),
+			'cmd': 'lessc "'+ main_less +'" "'+ css_dir+'" '+cmd+' '+self.get('custom_args'),
 			'shell': True,
 			'working_dir': working_dir,
 			# 'syntax': 'Packages/LESS/LESS.tmLanguage',
