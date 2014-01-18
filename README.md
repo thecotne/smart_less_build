@@ -23,7 +23,7 @@ or something similar go to step 4.
 6. in sublime go to Preferances >> Browse Packages...
 7. go up and go in "Installed Packages" folder
 8. drop smart_less_build.sublime-package in
-9. enjoy or read Documentation with does not exists :D
+9. enjoy or read Documentation which does not exists :D
 
 # Documentation
 Not Yet Available
