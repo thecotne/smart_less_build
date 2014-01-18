@@ -1,17 +1,16 @@
-
-
 {
 	"skip_config_err": true,
 		//Boolean skip config errors or not 
-	"working_dir": "@auto",
+	"working_dir": "@less_dir",
 		//String path to working dir
 		//String "@auto"
+		//String "@less_dir"
 	"source_map": true,
 		//Boolean generate source_map or not
-	"main_less": "./less/main.less",
+	"main_less": "./main.less",
 		//String path to main less file (can be relative)
 		//String "@none"
-	"css_dir": "./css",
+	"css_dir": "../css",
 		//String path to css dir (can be relative)
 		//String "@same_dir"
 	"minify": false,
