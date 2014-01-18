@@ -19,11 +19,12 @@ if it returns
 v0.10.24
 or something similar go to step 4. 
 4. enter `npm install less -g` in command prompt
-5. download this [smart_less_build.sublime-package][1]
-6. in sublime go to Preferances >> Browse Packages...
-7. go up and go in "Installed Packages" folder
-8. drop smart_less_build.sublime-package in
-9. enjoy or read Documentation which does not exists :D
+5. install LESS package from package control
+6. download this [smart_less_build.sublime-package][1]
+7. in sublime go to Preferances >> Browse Packages...
+8. go up and go in "Installed Packages" folder
+9. drop smart_less_build.sublime-package in
+10. enjoy or read Documentation which does not exists :D
 
 # Documentation
 Not Yet Available
