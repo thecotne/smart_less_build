@@ -1,0 +1,19 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "smart_less_build",
+			"details": "https://github.com/thecotne/smart_less_build",
+			"author": "thecotne",
+			"homepage": "https://github.com/thecotne/smart_less_build",
+			"readme": "https://raw.githubusercontent.com/thecotne/smart_less_build/master/README.md",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/whatwedo/Sublime-Text-2-Compass-Build-System/tags"
+				}
+			],
+			"labels": ["less", "css", "precompiler", "build", "watch"]
+		}
+	]
+}
