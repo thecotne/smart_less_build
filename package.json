@@ -2,7 +2,8 @@
 	"schema_version": "2.0",
 	"packages": [
 		{
-			"name": "smart_less_build",
+			"name": "smart less build",
+			"previous_names": ["smart_less_build"],
 			"details": "https://github.com/thecotne/smart_less_build",
 			"author": "thecotne",
 			"homepage": "https://github.com/thecotne/smart_less_build",
