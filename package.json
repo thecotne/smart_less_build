@@ -9,6 +9,7 @@
 			"readme": "https://raw.githubusercontent.com/thecotne/smart_less_build/master/README.md",
 			"releases": [
 				{
+					"platforms": "windows",
 					"sublime_text": "*",
 					"details": "https://github.com/thecotne/smart_less_build/tags"
 				}
