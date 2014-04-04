@@ -10,7 +10,7 @@
 			"releases": [
 				{
 					"platforms": "windows",
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"details": "https://github.com/thecotne/smart_less_build/tags"
 				}
 			],
