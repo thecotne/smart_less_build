@@ -11,7 +11,7 @@
 			"children": [{
 				"command": "open_file",
 				"args": {
-					"file": "${packages}/smart_less_build/README.md"
+					"file": "${packages}/smart less build/README.md"
 				},
 				"caption": "README"
 			}, {
@@ -19,7 +19,7 @@
 			}, {
 				"command": "open_file",
 				"args": {
-					"file": "${packages}/smart_less_build/smart_less_build.sublime-settings"
+					"file": "${packages}/smart less build/smart_less_build.sublime-settings"
 				},
 				"caption": "Settings – Default"
 			}, {
